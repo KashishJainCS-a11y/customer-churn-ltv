@@ -4,25 +4,25 @@ A machine learning application that predicts customer churn probability and calc
 
 ##  Features
 
-### 1. ** Single Customer Predictor**
+### 1.  Single Customer Predictor
 - Interactive form to input customer demographics and service details
 - Real-time churn probability prediction
 - Customer LTV estimation
 - Explainability factors (contract type, fiber optic, security features, tenure)
 
-### 2. ** Batch Prediction**
+### 2.  Batch Prediction
 - Upload CSV files with customer data
 - Bulk predictions for multiple customers
 - Churn risk classification (Low/Medium/High)
 - Download results as CSV
 
-### 3. ** Customer Segments**
+### 3.  Customer Segments
 - RFM (Recency, Frequency, Monetary) segmentation
 - 5 customer segments: Champions, Loyal, Potential, At Risk, Lost
 - LTV bucketing (Low/Medium/High/Premium)
 - Segment-wise analytics and insights
 
-### 4. ** Analytics & Insights**
+### 4.  Analytics & Insights
 - Global KPIs: Churn rate, average monthly charges, customer tenure
 - Feature importance analysis
 - Churn rate by contract type
@@ -37,43 +37,43 @@ A machine learning application that predicts customer churn probability and calc
 
 ### Installation
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/customer_churn_ltv.git
    cd customer_churn_ltv
    ```
 
-2. **Create a virtual environment**
+2. Create a virtual environment
    ```bash
    python -m venv venv
    ```
 
-3. **Activate virtual environment**
-   - **Windows:**
+3. Activate virtual environment
+   - Windows:
      ```bash
      venv\Scripts\activate
      ```
-   - **macOS/Linux:**
+   - macOS/Linux:
      ```bash
      source venv/bin/activate
      ```
 
-4. **Install dependencies**
+4. Install dependencies
    ```bash
    pip install -r requirements.txt
    ```
 
-5. **Train the model** (optional - auto-trains on first run)
+5. Train the model (optional - auto-trains on first run)
    ```bash
    python train.py
    ```
 
-6. **Run the Streamlit app**
+6. Run the Streamlit app
    ```bash
    streamlit run app.py
    ```
 
-7. **Access the app**
+7. Access the app
    - Local: http://localhost:8501
    - Network: http://192.168.29.139:8501 (replace IP with your machine IP)
 
@@ -117,35 +117,35 @@ customer_churn_ltv/
 
 ##  Model Performance
 
-- **Algorithm**: Logistic Regression
-- **Best ROC-AUC Score**: 0.8423
-- **F1-Score (Churn Class)**: 0.6061
-- **Accuracy**: 0.8062
-- **Dataset**: IBM Telco Customer Churn (7,043 customers, 21 features)
-- **Train/Validation Split**: 80/20 with stratification
+- Algorithm: Logistic Regression
+- Best ROC-AUC Score: 0.8423
+- F1-Score (Churn Class): 0.6061
+- Accuracy: 0.8062
+- Dataset: IBM Telco Customer Churn (7,043 customers, 21 features)
+- Train/Validation Split: 80/20 with stratification
 
 ##  Usage Guide
 
 ### Single Customer Predictor
-1. Go to the **🔮 Single Customer Predictor** tab
+1. Go to the 🔮 Single Customer Predictor tab
 2. Fill in customer demographics (age, contract type, services, charges)
-3. Click **Predict**
+3. Click Predict
 4. View churn probability, LTV, and risk factors
 
 ### Batch Prediction
-1. Go to the ** Batch Prediction** tab
+1. Go to the  Batch Prediction tab
 2. Upload a CSV file with customer data (matching training features)
 3. View predictions table
 4. Download results as CSV
 
 ### Customer Segments
-1. Go to the ** Customer Segments** tab
+1. Go to the  Customer Segments tab
 2. View overall segment distribution and LTV buckets
 3. Select a segment from dropdown
 4. View segment-specific metrics and insights
 
 ### Analytics & Insights
-1. Go to the ** Analytics & Insights** tab
+1. Go to the  Analytics & Insights tab
 2. View global KPIs and 4 interactive charts
 3. Hover over charts for detailed information
 
@@ -166,9 +166,9 @@ LTV = Total_Charges_to_Date + (Remaining_Tenure * Monthly_Charges)
 
 ##  Data Source
 
-- **Dataset**: IBM Telco Customer Churn
-- **Source**: https://github.com/IBM/telco-customer-churn-on-icp4d
-- **Auto-download**: Dataset is automatically downloaded on first run
+- Dataset: IBM Telco Customer Churn
+- Source: https://github.com/IBM/telco-customer-churn-on-icp4d
+- Auto-download: Dataset is automatically downloaded on first run
 
 ##  Development
 
@@ -222,4 +222,4 @@ Contributions are welcome! Feel free to:
 
 ---
 
-**Built with ❤️ using Python, Scikit-learn, and Streamlit**
+Built with ❤️ using Python, Scikit-learn, and Streamlit
