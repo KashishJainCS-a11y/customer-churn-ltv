@@ -1,7 +1,7 @@
 # 🎯 Customer Churn & LTV Prediction
 
 A machine learning application that predicts customer churn probability and calculates customer lifetime value (LTV) using Scikit-learn and Streamlit.
-
+Live Demo: https://customer-churn-ltv-sqctvevsuygyfwkvuyzdzq.streamlit.app/
 ##  Features
 
 ### 1.  Single Customer Predictor
@@ -74,8 +74,7 @@ A machine learning application that predicts customer churn probability and calc
    ```
 
 7. Access the app
-   - Local: http://localhost:8501
-   - Network: http://192.168.29.139:8501 (replace IP with your machine IP)
+
 
 ##  Project Structure
 
